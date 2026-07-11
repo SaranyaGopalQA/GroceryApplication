@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-11T20:57:10 IST" name="Suite" finished-at="2026-07-11T20:59:16 IST" duration-ms="125364">
+    <groups>
+    </groups>
+    <test started-at="2026-07-11T20:57:10 IST" name="Test" finished-at="2026-07-11T20:59:16 IST" duration-ms="125364">
+      <class name="testScripts.ManageDeliveryBoyTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:57:10 IST" name="initializeBrowser" finished-at="2026-07-11T20:58:08 IST" duration-ms="57730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verify_Whether_User_is_able_to_Create_New_Delivery_Boy()[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:58:08 IST" name="verify_Whether_User_is_able_to_Create_New_Delivery_Boy" description="User is trying to create a new Delivery Boy." finished-at="2026-07-11T20:58:22 IST" duration-ms="13784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Whether_User_is_able_to_Create_New_Delivery_Boy -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:58:22 IST" name="closeBrowser" finished-at="2026-07-11T20:58:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Whether_User_is_able_to_Create_New_Delivery_Boy status=SUCCESS method=ManageDeliveryBoyTest.verify_Whether_User_is_able_to_Create_New_Delivery_Boy()[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:58:22 IST" name="initializeBrowser" finished-at="2026-07-11T20:59:09 IST" duration-ms="46998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verify_Whether_User_is_able_to_Search_Newly_created_Delivery_Boy()[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:59:09 IST" name="verify_Whether_User_is_able_to_Search_Newly_created_Delivery_Boy" description="User is trying to search  newly created Delivery Boy." finished-at="2026-07-11T20:59:16 IST" duration-ms="6726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Whether_User_is_able_to_Search_Newly_created_Delivery_Boy -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb]" started-at="2026-07-11T20:59:16 IST" name="closeBrowser" finished-at="2026-07-11T20:59:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Whether_User_is_able_to_Search_Newly_created_Delivery_Boy status=SUCCESS method=ManageDeliveryBoyTest.verify_Whether_User_is_able_to_Search_Newly_created_Delivery_Boy()[pri:0, instance:testScripts.ManageDeliveryBoyTest@1750fbeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.ManageDeliveryBoyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

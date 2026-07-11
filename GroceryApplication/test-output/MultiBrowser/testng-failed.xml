@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [MultiBrowser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test2(failed)">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="testScripts.ManageContactTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verify_Whether_user_is_able_to_Update_ContactUs_Informations"/>
+        </methods>
+      </class> <!-- testScripts.ManageContactTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [MultiBrowser] -->
